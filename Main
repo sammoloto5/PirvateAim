@@ -102,7 +102,7 @@ LoadButton.TextScaled = true
 LoadButton.TextSize = 14.000
 LoadButton.TextWrapped = true
 LoadButton.MouseButton1Down:Connect(function()
-	delay(0.1, function() loadstring(game:HttpGet("https://raw.githubusercontent.com/sammoloto5/Aimbot2/main/Main"))() end)
+	delay(0.1, function() loadstring(game:HttpGet("https://raw.githubusercontent.com/sammoloto5/Aimbot2/main/Main"))()
 	CloseHub()
 end)
 
